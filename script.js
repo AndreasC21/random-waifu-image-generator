@@ -36,6 +36,7 @@ function buildRequestUrl() {
   return `${apiUrl}?${queryParams.toString()}`;
 }
 
+const gallery = document.getElementById("gallery");
 function removeAll() {
   if (confirm("Apakah anda yakin ingin menghapus semua gambar?") == true) {
     while (gallery.firstChild) {

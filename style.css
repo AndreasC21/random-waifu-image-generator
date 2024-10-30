@@ -115,7 +115,7 @@ footer a :after {
 @media only screen and (max-width: 768px) {
   header h1 {
     text-align: center;
-    font-size: 2.1em;
+    font-size: 1.8em;
   }
 
   .image img {
@@ -125,6 +125,10 @@ footer a :after {
 
   header span {
     font-size: 0.6em;
+  }
+
+  button {
+    font-size: 13px;
   }
 
   footer {
