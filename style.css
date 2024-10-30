@@ -4,35 +4,28 @@ html {
 
 body {
   font-size: 20px;
-  color: #cbe3ff;
+  color: #000000;
   font-family: "Plus Jakarta Sans", serif;
-  background-color: #1e2835;
+  background: rgb(238, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 212, 255, 1) 0%,
+    rgba(255, 210, 210, 1) 50%,
+    rgba(255, 223, 177, 1) 100%
+  );
 }
 
 header {
   position: relative;
   text-align: center;
-  margin-bottom: 20px;
-  padding: 10px 0px 200px 0;
-}
-
-header::before {
-  content: "";
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-image: url("https://plus.unsplash.com/premium_photo-1666700698920-d2d2bba589f8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  opacity: 0.2;
+  padding: 10px 0px 100px 0;
 }
 
 header h1 {
   position: relative;
   font-weight: 800;
   margin-bottom: 10px;
-  font-size: 70px;
+  font-size: 60px;
 }
 
 header span {
@@ -48,13 +41,13 @@ article {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1600px;
 }
 
 .image {
   display: block;
   height: auto;
-  margin: 8px 8px 0 8px;
+  margin: 0px 8px 10px 8px;
   transition: 1s ease-out;
 }
 
@@ -90,7 +83,8 @@ button {
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  background-color: #1888f2;
+  background-color: #eed4ff;
+  border: 1px solid black;
   color: #1c2530;
   font-size: 20px;
   font-weight: 700;
@@ -98,7 +92,7 @@ button {
 }
 
 button:hover {
-  background-color: #007be4;
+  background-color: #e6c0ff;
 }
 
 footer {
@@ -110,7 +104,7 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #cbe3ff;
+  color: #000000;
   font-weight: 800;
 }
 

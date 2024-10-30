@@ -35,3 +35,12 @@ function buildRequestUrl() {
   }
   return `${apiUrl}?${queryParams.toString()}`;
 }
+
+function removeAll() {
+  if (confirm("Apakah anda yakin ingin menghapus semua gambar?") == true) {
+    while (gallery.firstChild) {
+      gallery.removeChild(gallery.firstChild);
+    }
+  } else {
+  }
+}
